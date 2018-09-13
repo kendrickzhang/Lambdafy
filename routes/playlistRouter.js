@@ -12,9 +12,9 @@ const showJSON = (req, res) => {
   res.json(res.locals.data);
 };
 
-const redirect = (req, res) => {
-  res.redirect('http://localhost:3000/playlists');
-};
+// const redirect = (req, res) => {
+//   res.redirect('http://localhost:3000/playlists');
+// };
 
 // playlistRouter.get('/', (req, res) => {
 //     res.send('Hello World!');

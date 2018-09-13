@@ -1,8 +1,6 @@
 DROP DATABASE IF EXISTS lambdify_db;
 CREATE DATABASE lambdify_db;
 
-\c lambdify_db
-
 DROP TABLE IF EXISTS playlists;
 DROP INDEX IF EXISTS playlists_playlistId;
 DROP INDEX IF EXISTS playlists_byUser;

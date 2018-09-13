@@ -1,7 +1,5 @@
-DELETE FROM users;
 DELETE FROM playlists;
-
-\c lambdify_db
+DELETE FROM users;
 
 INSERT INTO users ( username, full_name ) VALUES 
 (
