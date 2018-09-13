@@ -26,7 +26,7 @@ app.set('view engine', 'ejs');
 // app.set('Views', path.join(__dirname, 'Views'));
 
 // Use routes
-app.use('/lambdafy', playlistRouter);
+app.use('/', playlistRouter);
 
 // Listen on PORT
 app.listen(PORT, () => {
